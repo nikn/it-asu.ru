@@ -1,0 +1,190 @@
+2016-04-08 14:47:30 [82.179.20.34][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 82.179.20.34
+    in /home/u260779470/public_html/backend/views/layouts/main.php:73
+    in /home/u260779470/public_html/backend/controllers/SiteController.php:73
+2016-04-08 14:47:30 [82.179.20.34][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '2312a1c79abc379e87d0b848eeca2e3a16f7848fed8f84f6e03d2c4a8ac84201a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"apu9FTXA_F4W0-i9d7RlDrdA0RrhjUlJ\";}'
+    'PHPSESSID' => 'dea1558d563aa54d003a1d1b1cbd0fb8'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'exodli'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'PHP_FCGI_CHILDREN' => '0'
+    'PATH' => '/bin:/usr/bin:/sbin:/usr/sbin'
+    'PWD' => '/opt/php'
+    'SHLVL' => '0'
+    'PHP_FCGI_MAX_REQUESTS' => '0'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '41814'
+    'SCRIPT_FILENAME' => '/home/u260779470/public_html/backend/web/index.php'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/u260779470/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/home/u260779470/public_html'
+    'REMOTE_ADDR' => '82.179.20.34'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '31.220.16.226'
+    'SERVER_NAME' => 'nikn.xyz'
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_SIGNATURE' => ''
+    'LD_LIBRARY_PATH' => '/opt/httpd/lib'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=259200'
+    'HTTP_X_FORWARDED_FOR' => '10.0.21.104'
+    'HTTP_VIA' => '1.1 proxy.asu.ru:3168 (squid/2.7.STABLE9)'
+    'HTTP_COOKIE' => '_csrf=2312a1c79abc379e87d0b848eeca2e3a16f7848fed8f84f6e03d2c4a8ac84201a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22apu9FTXA_F4W0-i9d7RlDrdA0RrhjUlJ%22%3B%7D; PHPSESSID=dea1558d563aa54d003a1d1b1cbd0fb8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_HOST' => 'nikn.xyz'
+    'BINARY_SERVERADMIN' => 'webmaster@nikn.xyz'
+    'SERVER_ADMIN' => 'webmaster@nikn.xyz'
+    'UNIQUE_ID' => 'VwfEgh-cEN0AAAbSjl8AAABq'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460126850.3451
+    'REQUEST_TIME' => 1460126850
+]
+2016-04-08 19:38:15 [192.168.173.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.173.1
+    in C:\OpenServer\domains\it-asu.ru\backend\views\layouts\main.php:73
+    in C:\OpenServer\domains\it-asu.ru\backend\controllers\SiteController.php:73
+2016-04-08 19:38:15 [192.168.173.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd03f9718e753301a533a3f674c23bb8283e17a462857aed8da0333dcb4e56c59a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dRlIfzwyWdfi0hVZtbu33oQLgQ9KMgkj\";}'
+    'PHPSESSID' => 'ha6ti14makbjhpetrf8190tsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jabiaip'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.173.1'
+    'HTTP_X_REAL_IP' => '192.168.173.191'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SAVE_DATA' => 'on'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 5.1.1; D6503 Build/23.4.A.1.232) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.105 Mobile Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d03f9718e753301a533a3f674c23bb8283e17a462857aed8da0333dcb4e56c59a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dRlIfzwyWdfi0hVZtbu33oQLgQ9KMgkj%22%3B%7D; PHPSESSID=ha6ti14makbjhpetrf8190tsp3'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.6\\bin;c:\\openserver\\modules\\http\\Apache-2.4+Nginx-1.7\\bin;c:\\openserver\\modules\\http\\Apache-2.4+Nginx-1.7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => '192.168.173.1'
+    'SERVER_ADDR' => '192.168.173.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.173.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/it-asu.ru'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/it-asu.ru'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/it-asu.ru/backend/web/index.php'
+    'REMOTE_PORT' => '25610'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460133495.233
+    'REQUEST_TIME' => 1460133495
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2016-04-08 20:15:11 [192.168.173.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.173.1
+    in C:\OpenServer\domains\it-asu.ru\backend\views\layouts\main.php:73
+    in C:\OpenServer\domains\it-asu.ru\backend\controllers\SiteController.php:73
+2016-04-08 20:15:11 [192.168.173.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ha6ti14makbjhpetrf8190tsp3'
+    '_csrf' => '8c96200b421c017352cf23380560889a00a7433b761a1dee7b66dcfb93a64ab9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IiL6ts-t-LvVK3NOdsMc5-BaNFXrlo6K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jabiaip'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.173.1'
+    'HTTP_X_REAL_IP' => '192.168.173.191'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SAVE_DATA' => 'on'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 5.1.1; D6503 Build/23.4.A.1.232) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.105 Mobile Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=ha6ti14makbjhpetrf8190tsp3; _csrf=8c96200b421c017352cf23380560889a00a7433b761a1dee7b66dcfb93a64ab9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IiL6ts-t-LvVK3NOdsMc5-BaNFXrlo6K%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.6\\bin;c:\\openserver\\modules\\http\\Apache-2.4+Nginx-1.7\\bin;c:\\openserver\\modules\\http\\Apache-2.4+Nginx-1.7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => '192.168.173.1'
+    'SERVER_ADDR' => '192.168.173.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.173.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/it-asu.ru'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/it-asu.ru'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/it-asu.ru/backend/web/index.php'
+    'REMOTE_PORT' => '26135'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460135711.652
+    'REQUEST_TIME' => 1460135711
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
