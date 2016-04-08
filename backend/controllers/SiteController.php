@@ -80,4 +80,17 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+    
+    public function actionAddNews()
+    {
+        if (!\Yii::$app->user->isGuest) {
+            $this->render('addNews');
+        }
+    }
+    
+    public function actionAddArticle() {
+        if (!\Yii::$app->user->isGues) {   
+            $this->render('addArticle');
+        }
+    }
 }
